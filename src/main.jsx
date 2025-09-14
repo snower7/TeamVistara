@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,7 +9,7 @@ import './index.css'
 import Home from './home';
 import Metrics from './metrics';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Home />,
