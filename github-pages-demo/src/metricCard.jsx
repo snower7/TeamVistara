@@ -42,8 +42,8 @@ function MetricCard(props) {
                     alignItems: "center",
                 }}>
                 
-                <ModalBody className="d-flex justify-content-center">
-                    <button type="button" className="me-0 ms-auto btn-close btn-close-white p-2" aria-label="Close" onClick={toggle}></button>
+                <ModalBody className="justify-content-center">
+                    <button type="button" className="position-fixed end-0 top-0 btn-close btn-close-white m-4" aria-label="Close" onClick={toggle}></button>
                     <img className="w-100 p-2" src={url} />
                 </ModalBody>
             </Modal>

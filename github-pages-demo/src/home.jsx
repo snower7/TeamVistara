@@ -30,12 +30,11 @@ function Home() {
 
     function renderTitleCards() {
         const cards = people.map((value) => {
-            return <Row>
-                <h4 style={{ fontWeight: "600" }}>{value.name}</h4>
+            return <Row className="text-md-end" key={value.name}>
+                <h4 className="fw-semibold">{value.name}</h4>
                 <h6>{value.title}</h6>
             </Row>
         })
-        console.log(cards);
         return cards;
     }
 
@@ -43,8 +42,13 @@ function Home() {
         <>
             <Header />
             <Container fluid style={{ width: "70%" }}>
-                <Row style={{ margin: "30px 0px", padding: 0 }}>
-                    <h1 style={{ fontSize: "64px", fontWeight: "bold", padding: 0 }}>Vistara - Property Manager Web Application</h1>
+                <Row md={7} style={{ margin: "30px 0px", padding: 0 }}>
+                    <h1 className="display-3 ps-0 fw-bold">
+                        Vistara
+                    </h1>
+                    <h1 className="fw-normal display-5 ps-0 text-muted">
+                        Property Manager Web Application
+                    </h1>
                 </Row>
                 <Row>
                     <Col md={8}>
@@ -60,12 +64,12 @@ function Home() {
                             </p>
                         </Row>
                     </Col>
-                    <Col style={{ textAlign: "right" }}>
+                    <Col className="text-left">
                         {renderTitleCards()}
                     </Col>
                 </Row>
 
-            </Container>
+            </Container >
 
         </>
 
