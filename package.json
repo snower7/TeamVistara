@@ -2,7 +2,7 @@
   "name": "github-pages-demo",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://snower7.github.io/TeamVistara/",
+  "homepage": "https://snower7.github.io/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
