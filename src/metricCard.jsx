@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function MetricCard(props) {
     const [loaded, setLoaded] = useState(false);
-    const url = "/Week" + props.week + "/" + props.name + ".png";
+    const url = "Week" + props.week + "/" + props.name + ".png";
     const [open, setOpen] = useState(false)
 
     const toggle = () => setOpen(!open);

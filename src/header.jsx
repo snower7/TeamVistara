@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import {
     Collapse,
     Navbar,
@@ -35,16 +36,16 @@ function Header() {
                 <Collapse isOpen={isOpen} navbar style={{ justifyContent: "right" }}>
                     <Nav navbar>
                         <NavItem>
-                            <NavLink href="/home/">Home</NavLink>
+                            <Link className="nav-link" to="/home/">Home</Link>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/metrics/">Metrics</NavLink>
+                            <Link className="nav-link" to="/metrics/">Metrics</Link>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/time">Time Logging</NavLink>
+                            <Link className="nav-link" to="/time">Time Logging</Link>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/documentation/">Documentation</NavLink>
+                            <Link className="nav-link" to="/documentation/">Documentation</Link>
                         </NavItem>
                     </Nav>
                 </Collapse>
@@ -63,16 +64,16 @@ function Header() {
                 <Collapse isOpen={isOpen} navbar style={{ justifyContent: "right" }}>
                     <Nav navbar>
                         <NavItem>
-                            <NavLink href="/#home/">Home</NavLink>
+                            <Link href="#TeamVistara/#home/">Home</Link>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/#metrics/">Metrics</NavLink>
+                            <NavLink href="#TeamVistara/#metrics/">Metrics</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/#time">Time Logging</NavLink>
+                            <NavLink href="#TeamVistara/#time">Time Logging</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/#documentation/">Documentation</NavLink>
+                            <NavLink href="#TeamVistara/#documentation/">Documentation</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
