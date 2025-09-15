@@ -63,16 +63,16 @@ function Header() {
                 <Collapse isOpen={isOpen} navbar style={{ justifyContent: "right" }}>
                     <Nav navbar>
                         <NavItem>
-                            <NavLink href="/home/">Home</NavLink>
+                            <NavLink href="/#home/">Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/metrics/">Metrics</NavLink>
+                            <NavLink href="/#metrics/">Metrics</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/time">Time Logging</NavLink>
+                            <NavLink href="/#time">Time Logging</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/documentation/">Documentation</NavLink>
+                            <NavLink href="/#documentation/">Documentation</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
