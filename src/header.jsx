@@ -31,7 +31,7 @@ function Header() {
                 style={{
                     borderTop: "5px solid #0D4470",
                 }}>
-                <NavbarBrand href="/">Vistara Senior Project</NavbarBrand>
+                <Link className="navbar-brand" to="/">Vistara Senior Project</Link>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar style={{ justifyContent: "right" }}>
                     <Nav navbar>
