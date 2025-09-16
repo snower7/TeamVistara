@@ -8,6 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 import Home from './home';
 import Metrics from './metrics';
+import Header from './header';
+import TimeLog from './timeLog';
 
 const router = createHashRouter([
   {
@@ -22,6 +24,10 @@ const router = createHashRouter([
     path: "/metrics",
     element: <Metrics />,
   },
+  {
+    path: "/time",
+    element: <TimeLog />
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(
