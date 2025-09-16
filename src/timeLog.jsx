@@ -95,12 +95,12 @@ function TimeLog() {
                         </DropdownMenu>
                     </Dropdown>
                 </Row>
-                <Row className="p-4">
-                    <Col>
-                        <HoursTable data={displayData} />
-                    </Col>
-                    <Col>
+                <Row className="p-4 justify-content-center flex-md-row-reverse gap-3">
+                    <Col xs={12} md={5}>
                         <Pie data={displayData} />
+                    </Col>
+                    <Col xs={12} md={5}>
+                        <HoursTable data={displayData} />
                     </Col>
                 </Row>
             </Container>
