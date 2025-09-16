@@ -57,10 +57,7 @@ function Home() {
                         </Row>
                         <Row>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-                            </p>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                                Vistara is a web application where rental owners and tenants can go to manage and better their rental experience. Vistara aims to provide owners and tenants with greater renting experience by acting as a property manager and automating tedious processes (such as recurring payments) for both parties. Renters and property owners also are brought closer together with a consistent line of communication, so that any renter needs are fulfilled promptly.
                             </p>
                         </Row>
                     </Col>
