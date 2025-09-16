@@ -22,8 +22,8 @@ const people = [{
     name: "Matt Zhang",
     title: "Communications Lead"
 }, {
-    name: "Tzsfai Choy",
-    title: "Title"
+    name: "Tszfai Choy",
+    title: "Architecture Designer"
 }];
 
 function Home() {
