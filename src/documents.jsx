@@ -9,7 +9,7 @@ function Document() {
         var list = []
         for (const [key, value] of Object.entries(fourUps)) {
             var dir = key.split('/');
-            const stringdir = dir.filter((value) => value != ".").join("/")
+            const stringdir = dir.filter((value) => value != "public").join("/")
 
             list.push(<li><a target="_blank" href={"/TeamVistara/" + stringdir}>{dir[dir.length-1]}</a></li>)
         }
