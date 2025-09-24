@@ -10,6 +10,7 @@ import Home from './home';
 import Metrics from './metrics';
 import Header from './header';
 import TimeLog from './timeLog';
+import Document from './documents';
 
 const router = createHashRouter([
   {
@@ -27,6 +28,10 @@ const router = createHashRouter([
   {
     path: "/time",
     element: <TimeLog />
+  },
+  {
+    path: "/documentation",
+    element: <Document />
   }
 ]);
 
