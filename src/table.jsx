@@ -15,6 +15,9 @@ function HoursTable(props) {
                     <td>
                         {value['Total Time (Hours)']}
                     </td>
+                    <td>
+                        {value['Activity']}
+                    </td>
                 </tr>
             )
         })
@@ -32,6 +35,9 @@ function HoursTable(props) {
                     </th>
                     <th>
                         Hours
+                    </th>
+                    <th>
+                        Activity
                     </th>
                 </tr>
             </thead>
