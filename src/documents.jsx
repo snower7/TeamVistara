@@ -2,7 +2,7 @@ import { Container } from "reactstrap";
 import Header from "./header";
 import { useState, useEffect } from "react";
 function Document() {
-    const [fourUps, setFourUps] = useState(import.meta.glob('/public/documents/4-ups/*.pdf', {import: 'default', eager: true}))
+    const [fourUps, setFourUps] = useState(import.meta.glob('/public/documents/4-ups/*.pdf', { import: 'default', eager: true }))
 
     function renderFourUps() {
         console.log(fourUps);
@@ -11,7 +11,7 @@ function Document() {
             var dir = key.split('/');
             const stringdir = dir.filter((value) => value != "public").join("/")
 
-            list.push(<li><a target="_blank" href={"/TeamVistara/" + stringdir}>{dir[dir.length-1]}</a></li>)
+            list.push(<li><a target="_blank" href={"/TeamVistara/" + stringdir}>{dir[dir.length - 1]}</a></li>)
         }
         return list
     }
@@ -24,7 +24,16 @@ function Document() {
                 <ul>
                     {renderFourUps()}
                 </ul>
-                <h3><a target="_blank" href={'/TeamVistara/documents/DomainModel.png'}>Domain Model</a></h3>
+                <h3>
+                    <a target="_blank" href={'/TeamVistara/documents/DomainModel.png'}>
+                        Domain Model
+                    </a>
+                </h3>
+                <h3>
+                    <a target="_blank" href={'/TeamVistara/documents/Architecture Diagram.png'}>
+                        Architecture Diagram
+                    </a>
+                </h3>
             </Container>
         </>
     )
