@@ -30,8 +30,13 @@ function Document() {
                     </a>
                 </h3>
                 <h3>
-                    <a target="_blank" href={'/TeamVistara/documents/Architecture Diagram.png'}>
+                    <a target="_blank" href={'/TeamVistara/documents/ArchitectureDiagram.png'}>
                         Architecture Diagram
+                    </a>
+                </h3>
+                <h3>
+                    <a target="_blank" href={'/TeamVistara/documents/DatabaseModel.png'}>
+                        Database Model
                     </a>
                 </h3>
             </Container>
