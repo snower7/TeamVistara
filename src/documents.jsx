@@ -7,7 +7,13 @@ function Document() {
     function renderFourUps() {
         console.log(fourUps);
         var list = []
-        for (const [key, value] of Object.entries(fourUps)) {
+        var entries = Object.entries(fourUps)
+        entries.sort((i, next) => {
+            let iName = i[0].split('/').pop()
+            let nextName = next[0].split('/').pop()
+            return parseInt(iName.substring(4, iName.indexOf("."))) - parseInt(nextName.substring(4, nextName.indexOf("."))) 
+        })
+        for (const [key, value] of entries) {
             var dir = key.split('/');
             const stringdir = dir.filter((value) => value != "public").join("/")
 
